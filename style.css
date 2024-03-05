@@ -1,2 +1,31 @@
+.credit-card  {
+    width: 500px;
+    height: 325px;
+    background-color: royalblue;
+}
 
+.credit-card-front {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: "Geologica", sans-serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+}
+
+.credit-card-front .information-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.number {
+    display: flex;
+}
+
+.credit-card-back .name {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
 
