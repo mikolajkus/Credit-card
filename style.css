@@ -3,7 +3,8 @@
     height: 325px;
     background-color: royalblue;
     border-radius: 20px 20px 20px 20px;
-    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
     font-family: "Geologica", sans-serif;
     font-weight: 300;
     font-optical-sizing: auto;
@@ -11,7 +12,7 @@
 
 .credit-card-front {
     display: flex;
-    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .credit-card-front .information-wrapper {
@@ -45,11 +46,27 @@
     margin: 0 0 25px 38px;
 }
 
+.credit-card > .credit-card-back {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.credit-card-back {
+    margin-top: 20px;
+}
+
 .credit-card-back .name {
     font-family: "Sacramento", cursive;
     font-weight: 400;
     font-style: normal;
 }
 
+.magnetic-strip {
+    height: 18%;
+    background-color: black;
+    margin-top: 35px;
+
+}
 
 
